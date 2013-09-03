@@ -1,0 +1,8 @@
+<!ELEMENT library (book+)>
+<!ELEMENT book (title,author,price)>
+<!ATTLIST book isbn CDATA "0">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (first-name, last-name)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

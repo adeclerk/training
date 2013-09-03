@@ -1,0 +1,5 @@
+<!ELEMENT organization (employee+)>
+<!ELEMENT employee (empno, empname, salary)>
+<!ELEMENT empno (#PCDATA)>
+<!ELEMENT empname (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

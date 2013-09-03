@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="library.xsd">
+    <book isbn="655-54-3983">
+        <title>Head First Java</title>
+        <author>
+            <first-name>Kathy</first-name>
+            <last-name>Sierra</last-name>
+        </author>
+        <price>22.49</price>
+    </book>
+    <book isbn="809-21-4389">
+        <title>Mastering EJB</title>
+        <author>
+            <first-name>John</first-name>
+            <last-name>Doe</last-name>
+        </author>
+        <price>18.99</price>
+    </book>
+    <book isbn="999-99-9999">
+        <title>It's a book!'</title>
+        <author>
+            <first-name>Jack</first-name>
+            <last-name>Johnson</last-name>
+        </author>
+        <price>19.99</price>
+    </book>
+</library>

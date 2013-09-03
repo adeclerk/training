@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="Form.css" />
+</head>
+<body>
+    <form id="register">
+       <div class="form_title">
+        Registration Form</div>
+        <table>
+            <tr>
+                <td class="label">Name:</td>
+                <td class="field">
+                     <input id="name" type="text"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="label">User Id:</td>
+                <td class="field"><input id="user_id" type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Password:</td>
+                <td class="field"><input id="pw" type="password" ></td>
+            </tr>
+            <tr>
+                <td class="label">Gender</td>
+                <td class="field">
+                    <input type="radio" name="gender" value="male">
+                    <div class="radio_label">Male</div>
+                    <input type="radio" name="gender" value="female" >
+                    <div class="radio_label">Female</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">State:</td>
+                <td class="field">    
+                    <select id="state">
+                        <option value="VA">Va</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Hobbies</td>
+                <td class="field">
+                    <input type="checkbox" value="music">
+                    <div class="radio_label">Music</div>
+                    <input type="checkbox" value="sports">
+                    <div class="radio_label">Sports</div>
+                    <input type="checkbox" value="reading">
+                    <div class="radio_label">Reading</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Comment</td>
+                <td class="field"><textarea id="comment"></textarea></td>
+            </tr>
+            <tr class="form_buttons">
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Not Interested"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

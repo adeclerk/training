@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <application>
+        <admin>
+            <username>admin</username>
+            <password>defaultPassword</password>
+        </admin>
+    </application>
+</configuration>

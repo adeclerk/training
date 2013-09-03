@@ -1,0 +1,127 @@
+/* 
+    Document   : demo
+    Created on : Aug 24, 2013, 11:23:26 AM
+    Author     : Alex
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#demo_window {
+    width: 20%;
+    float: right;
+}
+
+#explanation {
+    width: 50%;
+}
+.window {
+    border: 1px solid;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    box-shadow: 3px 3px 5px #888888;
+    margin: 10px;
+}
+
+.window_title {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    background-color: #E6E6E6;
+    text-align: center;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom: 1px solid;
+}
+
+.window_title:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.window_content {
+    margin: 10px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-weight: italic;
+}
+.subtitle {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline;
+}
+
+.section {
+    background-color: #e6e6e6;
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    margin: 5px 5px;
+}
+
+.example {
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    margin: 1px 0px;
+    text-align: center;
+}
+
+.section_example {
+    background-color: white;
+}
+#margin {
+    background-color: red;
+}
+
+#border {
+    background-color: black;
+    color: white;
+}
+#text {
+    width: 30%;
+}
+#padding {
+    background-color: blue;
+    color: black;
+    border-color: white;
+}
+
+#content {
+    border-color: black;
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.gray {
+    background-color: #E6E6E6;
+}

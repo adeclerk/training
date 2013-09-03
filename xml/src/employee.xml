@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="employee.xsd">
+    <employee>
+        <empno>101</empno>
+        <empname>John</empname>
+        <salary>32000</salary>
+    </employee>
+    <employee>
+        <empno>102</empno>
+        <empname>Jack</empname>
+        <salary>67000</salary>
+    </employee>
+    <employee>
+        <empno>103</empno>
+        <empname>Alex</empname>
+        <salary>3939292</salary>
+    </employee>
+</organization>

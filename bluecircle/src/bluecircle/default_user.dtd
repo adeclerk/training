@@ -1,0 +1,7 @@
+<!ELEMENT default_user (password,username)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT username (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT password (#PCDATA)>
